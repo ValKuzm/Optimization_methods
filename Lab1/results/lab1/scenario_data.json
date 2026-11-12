@@ -1,0 +1,188 @@
+{
+  "base": {
+    "seed": 10212,
+    "variant": 5,
+    "budget_rub": 100000,
+    "horizon": "один год",
+    "synthetic": true,
+    "risk_limits": {
+      "market_risk": 0.4,
+      "currency_exposure": 0.35,
+      "illiquid_exposure": 0.28
+    },
+    "assets": [
+      {
+        "id": "A1",
+        "name": "Защитные облигации",
+        "annual_return": 0.061,
+        "market_risk": 0.082,
+        "currency_exposure": 0.0,
+        "illiquid_exposure": 0.0
+      },
+      {
+        "id": "A2",
+        "name": "Корпоративные облигации",
+        "annual_return": 0.086,
+        "market_risk": 0.248,
+        "currency_exposure": 0.0,
+        "illiquid_exposure": 0.158
+      },
+      {
+        "id": "A3",
+        "name": "Валютные облигации",
+        "annual_return": 0.08,
+        "market_risk": 0.197,
+        "currency_exposure": 1.0,
+        "illiquid_exposure": 0.058
+      },
+      {
+        "id": "A4",
+        "name": "Зарубежные акции",
+        "annual_return": 0.148,
+        "market_risk": 0.858,
+        "currency_exposure": 1.0,
+        "illiquid_exposure": 0.125
+      },
+      {
+        "id": "A5",
+        "name": "Акции внутреннего рынка",
+        "annual_return": 0.133,
+        "market_risk": 0.728,
+        "currency_exposure": 0.0,
+        "illiquid_exposure": 0.254
+      },
+      {
+        "id": "A6",
+        "name": "Малоликвидные бумаги",
+        "annual_return": 0.169,
+        "market_risk": 0.667,
+        "currency_exposure": 0.0,
+        "illiquid_exposure": 0.913
+      }
+    ]
+  },
+  "deficit": {
+    "seed": 10212,
+    "variant": 5,
+    "budget_rub": 100000,
+    "horizon": "один год",
+    "synthetic": true,
+    "risk_limits": {
+      "market_risk": 0.32000000000000006,
+      "currency_exposure": 0.35,
+      "illiquid_exposure": 0.28
+    },
+    "assets": [
+      {
+        "id": "A1",
+        "name": "Защитные облигации",
+        "annual_return": 0.061,
+        "market_risk": 0.082,
+        "currency_exposure": 0.0,
+        "illiquid_exposure": 0.0
+      },
+      {
+        "id": "A2",
+        "name": "Корпоративные облигации",
+        "annual_return": 0.086,
+        "market_risk": 0.248,
+        "currency_exposure": 0.0,
+        "illiquid_exposure": 0.158
+      },
+      {
+        "id": "A3",
+        "name": "Валютные облигации",
+        "annual_return": 0.08,
+        "market_risk": 0.197,
+        "currency_exposure": 1.0,
+        "illiquid_exposure": 0.058
+      },
+      {
+        "id": "A4",
+        "name": "Зарубежные акции",
+        "annual_return": 0.148,
+        "market_risk": 0.858,
+        "currency_exposure": 1.0,
+        "illiquid_exposure": 0.125
+      },
+      {
+        "id": "A5",
+        "name": "Акции внутреннего рынка",
+        "annual_return": 0.133,
+        "market_risk": 0.728,
+        "currency_exposure": 0.0,
+        "illiquid_exposure": 0.254
+      },
+      {
+        "id": "A6",
+        "name": "Малоликвидные бумаги",
+        "annual_return": 0.169,
+        "market_risk": 0.667,
+        "currency_exposure": 0.0,
+        "illiquid_exposure": 0.913
+      }
+    ]
+  },
+  "stress": {
+    "seed": 10212,
+    "variant": 5,
+    "budget_rub": 100000,
+    "horizon": "один год",
+    "synthetic": true,
+    "risk_limits": {
+      "market_risk": 0.24,
+      "currency_exposure": 0.35,
+      "illiquid_exposure": 0.168
+    },
+    "assets": [
+      {
+        "id": "A1",
+        "name": "Защитные облигации",
+        "annual_return": 0.061,
+        "market_risk": 0.082,
+        "currency_exposure": 0.0,
+        "illiquid_exposure": 0.0
+      },
+      {
+        "id": "A2",
+        "name": "Корпоративные облигации",
+        "annual_return": 0.086,
+        "market_risk": 0.248,
+        "currency_exposure": 0.0,
+        "illiquid_exposure": 0.158
+      },
+      {
+        "id": "A3",
+        "name": "Валютные облигации",
+        "annual_return": 0.08,
+        "market_risk": 0.197,
+        "currency_exposure": 1.0,
+        "illiquid_exposure": 0.058
+      },
+      {
+        "id": "A4",
+        "name": "Зарубежные акции",
+        "annual_return": 0.148,
+        "market_risk": 0.858,
+        "currency_exposure": 1.0,
+        "illiquid_exposure": 0.125
+      },
+      {
+        "id": "A5",
+        "name": "Акции внутреннего рынка",
+        "annual_return": 0.133,
+        "market_risk": 0.728,
+        "currency_exposure": 0.0,
+        "illiquid_exposure": 0.254
+      },
+      {
+        "id": "A6",
+        "name": "Малоликвидные бумаги",
+        "annual_return": 0.169,
+        "market_risk": 0.667,
+        "currency_exposure": 0.0,
+        "illiquid_exposure": 0.913
+      }
+    ]
+  }
+}

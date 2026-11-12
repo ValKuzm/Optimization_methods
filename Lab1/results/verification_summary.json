@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "count": 9,
+  "checks": [
+    {
+      "check": "lab1_base",
+      "passed": true
+    },
+    {
+      "check": "lab1_deficit",
+      "passed": true
+    },
+    {
+      "check": "lab1_stress",
+      "passed": true
+    },
+    {
+      "check": "lab1_reject_bad_budget",
+      "passed": true
+    },
+    {
+      "check": "lab1_reject_bad_objective",
+      "passed": true
+    },
+    {
+      "check": "lab1_reject_bad_risk",
+      "passed": true
+    },
+    {
+      "check": "dual_bound",
+      "passed": true
+    },
+    {
+      "check": "benchmark_10_tasks",
+      "passed": true
+    },
+    {
+      "check": "benchmark_100_verified_runs",
+      "passed": true
+    }
+  ]
+}

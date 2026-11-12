@@ -1,0 +1,17 @@
+{
+  "python": "3.13.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "highs": "1.16.0",
+  "packages": {
+    "numpy": "2.2.5",
+    "scipy": "1.15.3",
+    "highspy": "1.16.0",
+    "matplotlib": "3.10.3"
+  },
+  "seed": 10212,
+  "group": 527,
+  "N": 12,
+  "Q": 2,
+  "Y": 26,
+  "variant": 5
+}

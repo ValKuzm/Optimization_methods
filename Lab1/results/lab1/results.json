@@ -1,0 +1,318 @@
+{
+  "base": {
+    "status": "optimal",
+    "time_s": 0.0017578999995748745,
+    "objective": -0.10919992685495412,
+    "x": [
+      0.0,
+      0.4538204220118816,
+      0.21739673703028986,
+      0.13260326296971012,
+      0.0,
+      0.1961795779881185
+    ],
+    "row_dual": [
+      -0.05304797635578429,
+      -0.09719904370018385,
+      -0.0045563036379309765,
+      -0.05599152409221587
+    ],
+    "col_dual": [
+      1.8297939199364566e-05,
+      0.0,
+      0.0,
+      0.0,
+      0.005030727288940967,
+      0.0
+    ],
+    "simplex_iterations": 4,
+    "ipm_iterations": 0,
+    "crossover_iterations": 0,
+    "mip_nodes": -1,
+    "mip_gap": null,
+    "mip_dual_bound": 0.0,
+    "rows": 4,
+    "columns": 6,
+    "nonzeros": 19,
+    "verification": {
+      "passed": true,
+      "max_violation": 2.220446049250313e-16,
+      "tolerance": 1e-07,
+      "return_recomputed": 0.10919992685495414,
+      "profit_rub": 10919.992685495414,
+      "constraints": [
+        {
+          "constraint": "market_risk",
+          "actual": 0.4000000000000001,
+          "limit": 0.4,
+          "slack": -5.551115123125783e-17
+        },
+        {
+          "constraint": "currency_exposure",
+          "actual": 0.35,
+          "limit": 0.35,
+          "slack": 0.0
+        },
+        {
+          "constraint": "illiquid_exposure",
+          "actual": 0.2800000000000001,
+          "limit": 0.28,
+          "slack": -5.551115123125783e-17
+        }
+      ]
+    },
+    "annual_return": 0.10919992685495412,
+    "profit_rub": 10919.992685495412,
+    "shadow_prices": [
+      0.09719904370018385,
+      0.0045563036379309765,
+      0.05599152409221587
+    ],
+    "scipy_crosscheck": {
+      "objective": 0.10919992685495414,
+      "difference": 1.3877787807814457e-17
+    }
+  },
+  "deficit": {
+    "status": "optimal",
+    "time_s": 0.0003974999999627471,
+    "objective": -0.1014240033589394,
+    "x": [
+      0.0,
+      0.442439944626334,
+      0.3456394299569833,
+      0.004360570043016592,
+      0.0,
+      0.207560055373666
+    ],
+    "row_dual": [
+      -0.05304797635578429,
+      -0.09719904370018385,
+      -0.0045563036379309765,
+      -0.05599152409221587
+    ],
+    "col_dual": [
+      1.8297939199364566e-05,
+      0.0,
+      0.0,
+      0.0,
+      0.005030727288940967,
+      0.0
+    ],
+    "simplex_iterations": 4,
+    "ipm_iterations": 0,
+    "crossover_iterations": 0,
+    "mip_nodes": -1,
+    "mip_gap": null,
+    "mip_dual_bound": 0.0,
+    "rows": 4,
+    "columns": 6,
+    "nonzeros": 19,
+    "verification": {
+      "passed": true,
+      "max_violation": 1.3877787807814457e-17,
+      "tolerance": 1e-07,
+      "return_recomputed": 0.10142400335893942,
+      "profit_rub": 10142.400335893943,
+      "constraints": [
+        {
+          "constraint": "market_risk",
+          "actual": 0.32000000000000006,
+          "limit": 0.32000000000000006,
+          "slack": 0.0
+        },
+        {
+          "constraint": "currency_exposure",
+          "actual": 0.3499999999999999,
+          "limit": 0.35,
+          "slack": 5.551115123125783e-17
+        },
+        {
+          "constraint": "illiquid_exposure",
+          "actual": 0.2799999999999999,
+          "limit": 0.28,
+          "slack": 1.1102230246251565e-16
+        }
+      ]
+    },
+    "annual_return": 0.1014240033589394,
+    "profit_rub": 10142.40033589394,
+    "shadow_prices": [
+      0.09719904370018385,
+      0.0045563036379309765,
+      0.05599152409221587
+    ],
+    "shadow_prediction": 0.10142400335893942
+  },
+  "stress": {
+    "status": "optimal",
+    "time_s": 0.00050809999993362,
+    "objective": -0.08737349563658502,
+    "x": [
+      0.19311070897037136,
+      0.3568740698146371,
+      0.3499999999999998,
+      0.0,
+      0.0,
+      0.10001522121499168
+    ],
+    "row_dual": [
+      -0.05301051955080506,
+      -0.09743268840481649,
+      -0.0045552530104180766,
+      -0.05586185901772437
+    ],
+    "col_dual": [
+      0.0,
+      0.0,
+      0.0,
+      0.00014575158977123137,
+      0.005130428900013445,
+      0.0
+    ],
+    "simplex_iterations": 5,
+    "ipm_iterations": 0,
+    "crossover_iterations": 0,
+    "mip_nodes": -1,
+    "mip_gap": null,
+    "mip_dual_bound": 0.0,
+    "rows": 4,
+    "columns": 6,
+    "nonzeros": 19,
+    "verification": {
+      "passed": true,
+      "max_violation": 5.551115123125783e-17,
+      "tolerance": 1e-07,
+      "return_recomputed": 0.08737349563658503,
+      "profit_rub": 8737.349563658503,
+      "constraints": [
+        {
+          "constraint": "market_risk",
+          "actual": 0.23999999999999988,
+          "limit": 0.24,
+          "slack": 1.1102230246251565e-16
+        },
+        {
+          "constraint": "currency_exposure",
+          "actual": 0.3499999999999998,
+          "limit": 0.35,
+          "slack": 1.6653345369377348e-16
+        },
+        {
+          "constraint": "illiquid_exposure",
+          "actual": 0.16800000000000007,
+          "limit": 0.168,
+          "slack": -5.551115123125783e-17
+        }
+      ]
+    },
+    "annual_return": 0.08737349563658502,
+    "profit_rub": 8737.349563658501,
+    "shadow_prices": [
+      0.09743268840481649,
+      0.0045552530104180766,
+      0.05586185901772437
+    ],
+    "shadow_prediction": 0.08737702916459653
+  },
+  "dual": {
+    "status": "optimal",
+    "time_s": 0.0005091000002721557,
+    "objective": 0.10919992685495412,
+    "x": [
+      0.09719904370018383,
+      0.004556303637930997,
+      0.05599152409221589,
+      0.05304797635578429
+    ],
+    "row_dual": [
+      -0.0,
+      0.4538204220118815,
+      0.21739673703028994,
+      0.13260326296971003,
+      -0.0,
+      0.1961795779881185
+    ],
+    "col_dual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "simplex_iterations": 5,
+    "ipm_iterations": 0,
+    "crossover_iterations": 0,
+    "mip_nodes": -1,
+    "mip_gap": null,
+    "mip_dual_bound": 0.0,
+    "rows": 6,
+    "columns": 4,
+    "nonzeros": 19,
+    "verification": {
+      "passed": true,
+      "max_violation": 1.3877787807814457e-17,
+      "duality_gap": -1.3877787807814457e-17,
+      "dual_slacks": [
+        1.8297939199364566e-05,
+        0.0,
+        1.3877787807814457e-17,
+        0.0,
+        0.005030727288940939,
+        0.0
+      ],
+      "complementarity_risk": [
+        -5.395630814374543e-18,
+        0.0,
+        0.0
+      ],
+      "complementarity_assets": [
+        0.0,
+        0.0,
+        3.0169857866176023e-18,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "sensitivity": [
+    {
+      "risk": "market_risk",
+      "base_limit": 0.4,
+      "shadow": 0.09719904370018385,
+      "allowable_limit_min": 0.3172798013245033,
+      "allowable_limit_max": 0.5356158278145695,
+      "test_delta": 0.0001,
+      "predicted_change": 9.719904370018385e-06,
+      "actual_change": 9.719904370014687e-06
+    },
+    {
+      "risk": "currency_exposure",
+      "base_limit": 0.35,
+      "shadow": 0.0045563036379309765,
+      "allowable_limit_min": 0.1341591181697258,
+      "allowable_limit_max": 0.7505157730036633,
+      "test_delta": 0.0001,
+      "predicted_change": 4.5563036379309765e-07,
+      "actual_change": 4.5563036377149757e-07
+    },
+    {
+      "risk": "illiquid_exposure",
+      "base_limit": 0.28,
+      "shadow": 0.05599152409221587,
+      "allowable_limit_min": 0.1402162632375189,
+      "allowable_limit_max": 0.4290542959427208,
+      "test_delta": 0.0001,
+      "predicted_change": 5.599152409221587e-06,
+      "actual_change": 5.599152409219155e-06
+    }
+  ],
+  "support": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "basis_rank": 4,
+  "unique_optimum": true
+}
