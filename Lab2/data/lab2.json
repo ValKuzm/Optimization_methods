@@ -1,0 +1,669 @@
+{
+  "seed": 10212,
+  "variant": 5,
+  "nodes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "arcs": [
+    {
+      "id": "E01",
+      "u": 0,
+      "v": 1,
+      "cost": 5.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E02",
+      "u": 1,
+      "v": 0,
+      "cost": 2.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E03",
+      "u": 1,
+      "v": 2,
+      "cost": 2.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E04",
+      "u": 2,
+      "v": 1,
+      "cost": 3.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E05",
+      "u": 2,
+      "v": 3,
+      "cost": 3.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E06",
+      "u": 3,
+      "v": 2,
+      "cost": 4.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E07",
+      "u": 3,
+      "v": 4,
+      "cost": 6.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E08",
+      "u": 4,
+      "v": 3,
+      "cost": 5.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E09",
+      "u": 4,
+      "v": 0,
+      "cost": 7.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E10",
+      "u": 0,
+      "v": 4,
+      "cost": 4.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E11",
+      "u": 5,
+      "v": 6,
+      "cost": 5.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E12",
+      "u": 6,
+      "v": 5,
+      "cost": 2.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E13",
+      "u": 6,
+      "v": 7,
+      "cost": 5.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E14",
+      "u": 7,
+      "v": 6,
+      "cost": 5.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E15",
+      "u": 7,
+      "v": 8,
+      "cost": 3.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E16",
+      "u": 8,
+      "v": 7,
+      "cost": 2.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E17",
+      "u": 8,
+      "v": 9,
+      "cost": 7.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E18",
+      "u": 9,
+      "v": 8,
+      "cost": 7.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E19",
+      "u": 9,
+      "v": 5,
+      "cost": 4.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E20",
+      "u": 5,
+      "v": 9,
+      "cost": 3.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E21",
+      "u": 0,
+      "v": 2,
+      "cost": 4.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E22",
+      "u": 2,
+      "v": 0,
+      "cost": 7.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E23",
+      "u": 5,
+      "v": 7,
+      "cost": 4.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E24",
+      "u": 7,
+      "v": 5,
+      "cost": 7.0,
+      "capacity": 200.0
+    },
+    {
+      "id": "E25",
+      "u": 4,
+      "v": 5,
+      "cost": 2.0,
+      "capacity": 37.5
+    },
+    {
+      "id": "E26",
+      "u": 5,
+      "v": 4,
+      "cost": 2.0,
+      "capacity": 41.4
+    },
+    {
+      "id": "E27",
+      "u": 0,
+      "v": 9,
+      "cost": 20.0,
+      "capacity": 30.0
+    },
+    {
+      "id": "E28",
+      "u": 9,
+      "v": 0,
+      "cost": 20.0,
+      "capacity": 23.0
+    }
+  ],
+  "commodities": [
+    {
+      "source": 0,
+      "target": 1,
+      "demand": 3.0
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "demand": 3.0
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "demand": 1.0
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "demand": 2.0
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "demand": 2.0
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "demand": 3.0
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "demand": 2.0
+    },
+    {
+      "source": 0,
+      "target": 8,
+      "demand": 3.0
+    },
+    {
+      "source": 0,
+      "target": 9,
+      "demand": 1.0
+    },
+    {
+      "source": 1,
+      "target": 0,
+      "demand": 2.0
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "demand": 1.0
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "demand": 3.0
+    },
+    {
+      "source": 1,
+      "target": 4,
+      "demand": 2.0
+    },
+    {
+      "source": 1,
+      "target": 5,
+      "demand": 2.0
+    },
+    {
+      "source": 1,
+      "target": 6,
+      "demand": 3.0
+    },
+    {
+      "source": 1,
+      "target": 7,
+      "demand": 3.0
+    },
+    {
+      "source": 1,
+      "target": 8,
+      "demand": 1.0
+    },
+    {
+      "source": 1,
+      "target": 9,
+      "demand": 2.0
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "demand": 2.0
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "demand": 1.0
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "demand": 3.0
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "demand": 3.0
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "demand": 1.0
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "demand": 3.0
+    },
+    {
+      "source": 2,
+      "target": 7,
+      "demand": 1.0
+    },
+    {
+      "source": 2,
+      "target": 8,
+      "demand": 1.0
+    },
+    {
+      "source": 2,
+      "target": 9,
+      "demand": 2.0
+    },
+    {
+      "source": 3,
+      "target": 0,
+      "demand": 1.0
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "demand": 3.0
+    },
+    {
+      "source": 3,
+      "target": 2,
+      "demand": 1.0
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "demand": 1.0
+    },
+    {
+      "source": 3,
+      "target": 5,
+      "demand": 2.0
+    },
+    {
+      "source": 3,
+      "target": 6,
+      "demand": 3.0
+    },
+    {
+      "source": 3,
+      "target": 7,
+      "demand": 3.0
+    },
+    {
+      "source": 3,
+      "target": 8,
+      "demand": 1.0
+    },
+    {
+      "source": 3,
+      "target": 9,
+      "demand": 1.0
+    },
+    {
+      "source": 4,
+      "target": 0,
+      "demand": 3.0
+    },
+    {
+      "source": 4,
+      "target": 1,
+      "demand": 3.0
+    },
+    {
+      "source": 4,
+      "target": 2,
+      "demand": 2.0
+    },
+    {
+      "source": 4,
+      "target": 3,
+      "demand": 1.0
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "demand": 1.0
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "demand": 3.0
+    },
+    {
+      "source": 4,
+      "target": 7,
+      "demand": 2.0
+    },
+    {
+      "source": 4,
+      "target": 8,
+      "demand": 2.0
+    },
+    {
+      "source": 4,
+      "target": 9,
+      "demand": 2.0
+    },
+    {
+      "source": 5,
+      "target": 0,
+      "demand": 2.0
+    },
+    {
+      "source": 5,
+      "target": 1,
+      "demand": 1.0
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "demand": 1.0
+    },
+    {
+      "source": 5,
+      "target": 3,
+      "demand": 3.0
+    },
+    {
+      "source": 5,
+      "target": 4,
+      "demand": 1.0
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "demand": 2.0
+    },
+    {
+      "source": 5,
+      "target": 7,
+      "demand": 1.0
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "demand": 3.0
+    },
+    {
+      "source": 5,
+      "target": 9,
+      "demand": 2.0
+    },
+    {
+      "source": 6,
+      "target": 0,
+      "demand": 2.0
+    },
+    {
+      "source": 6,
+      "target": 1,
+      "demand": 2.0
+    },
+    {
+      "source": 6,
+      "target": 2,
+      "demand": 1.0
+    },
+    {
+      "source": 6,
+      "target": 3,
+      "demand": 2.0
+    },
+    {
+      "source": 6,
+      "target": 4,
+      "demand": 2.0
+    },
+    {
+      "source": 6,
+      "target": 5,
+      "demand": 3.0
+    },
+    {
+      "source": 6,
+      "target": 7,
+      "demand": 1.0
+    },
+    {
+      "source": 6,
+      "target": 8,
+      "demand": 2.0
+    },
+    {
+      "source": 6,
+      "target": 9,
+      "demand": 2.0
+    },
+    {
+      "source": 7,
+      "target": 0,
+      "demand": 2.0
+    },
+    {
+      "source": 7,
+      "target": 1,
+      "demand": 2.0
+    },
+    {
+      "source": 7,
+      "target": 2,
+      "demand": 3.0
+    },
+    {
+      "source": 7,
+      "target": 3,
+      "demand": 2.0
+    },
+    {
+      "source": 7,
+      "target": 4,
+      "demand": 1.0
+    },
+    {
+      "source": 7,
+      "target": 5,
+      "demand": 3.0
+    },
+    {
+      "source": 7,
+      "target": 6,
+      "demand": 2.0
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "demand": 1.0
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "demand": 1.0
+    },
+    {
+      "source": 8,
+      "target": 0,
+      "demand": 3.0
+    },
+    {
+      "source": 8,
+      "target": 1,
+      "demand": 2.0
+    },
+    {
+      "source": 8,
+      "target": 2,
+      "demand": 2.0
+    },
+    {
+      "source": 8,
+      "target": 3,
+      "demand": 1.0
+    },
+    {
+      "source": 8,
+      "target": 4,
+      "demand": 2.0
+    },
+    {
+      "source": 8,
+      "target": 5,
+      "demand": 2.0
+    },
+    {
+      "source": 8,
+      "target": 6,
+      "demand": 1.0
+    },
+    {
+      "source": 8,
+      "target": 7,
+      "demand": 2.0
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "demand": 2.0
+    },
+    {
+      "source": 9,
+      "target": 0,
+      "demand": 2.0
+    },
+    {
+      "source": 9,
+      "target": 1,
+      "demand": 2.0
+    },
+    {
+      "source": 9,
+      "target": 2,
+      "demand": 3.0
+    },
+    {
+      "source": 9,
+      "target": 3,
+      "demand": 1.0
+    },
+    {
+      "source": 9,
+      "target": 4,
+      "demand": 1.0
+    },
+    {
+      "source": 9,
+      "target": 5,
+      "demand": 3.0
+    },
+    {
+      "source": 9,
+      "target": 6,
+      "demand": 1.0
+    },
+    {
+      "source": 9,
+      "target": 7,
+      "demand": 3.0
+    },
+    {
+      "source": 9,
+      "target": 8,
+      "demand": 1.0
+    }
+  ],
+  "synthetic": true,
+  "cost_unit": "условная денежная единица на единицу груза",
+  "flow_unit": "единица груза в час"
+}

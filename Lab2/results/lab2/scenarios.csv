@@ -1,0 +1,4 @@
+﻿scenario,status,cost,time_s,verification_passed
+base,optimal,1831.4,0.009430300007807091,True
+growth_20,optimal,2407.2,0.00961549999192357,True
+arc_failure,infeasible,,0.006342200009385124,not applicable

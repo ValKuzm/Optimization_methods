@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "count": 5,
+  "checks": [
+    {
+      "check": "lab2_base",
+      "passed": true
+    },
+    {
+      "check": "lab2_growth_20",
+      "passed": true
+    },
+    {
+      "check": "lab2_reject_bad_flow",
+      "passed": true
+    },
+    {
+      "check": "lab2_failure_certificate",
+      "passed": true
+    },
+    {
+      "check": "lab2_shortest_distance_crosscheck",
+      "passed": true
+    }
+  ]
+}
