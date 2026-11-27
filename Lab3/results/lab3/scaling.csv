@@ -1,0 +1,4 @@
+﻿operators,binary_variables,status,time_s,objective,lp_bound,mip_dual_bound,solver_gap_percent,relaxation_gap_percent,nodes,verification_passed
+10,220,optimal,0.0660557000001063,66090.0,64414.0,66090.0,0.0,2.535935845059767,1,True
+20,440,optimal,0.12013690000003407,138094.0,134304.13333333333,138094.0,0.0,2.744410811959005,1,True
+40,880,optimal,0.18288089999987278,272213.0,265735.4,272213.0,0.0,2.379607145874729,1,True

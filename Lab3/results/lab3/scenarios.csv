@@ -1,0 +1,4 @@
+﻿scenario,status,objective_rub,time_s,mip_gap,nodes
+base,optimal,66090.0,0.0660557000001063,0.0,1
+deficit,optimal,69985.0,0.03652369999963412,0.0,1
+stress,infeasible,,0.014444899999944028,,1

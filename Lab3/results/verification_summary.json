@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "count": 9,
+  "checks": [
+    {
+      "check": "lab3_base",
+      "passed": true
+    },
+    {
+      "check": "lab3_deficit",
+      "passed": true
+    },
+    {
+      "check": "lab3_reject_bad_activation",
+      "passed": true
+    },
+    {
+      "check": "lab3_reject_missing_coverage",
+      "passed": true
+    },
+    {
+      "check": "lab3_reject_fractional",
+      "passed": true
+    },
+    {
+      "check": "lab3_stress_certificate",
+      "passed": true
+    },
+    {
+      "check": "scaling_10_feasible",
+      "passed": true
+    },
+    {
+      "check": "scaling_20_feasible",
+      "passed": true
+    },
+    {
+      "check": "scaling_40_feasible",
+      "passed": true
+    }
+  ]
+}
